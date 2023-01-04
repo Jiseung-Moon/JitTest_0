@@ -8,6 +8,8 @@ class MainActivity : AppCompatActivity() {
         var sum = a + b
         var rt = sum.toInt()
 
+        val test = 1
+
         return rt
     }
 }
