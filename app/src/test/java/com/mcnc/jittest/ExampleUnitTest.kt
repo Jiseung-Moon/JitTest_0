@@ -1,4 +1,4 @@
-package com.example.jittest0
+package com.mcnc.jittest
 
 import org.junit.Test
 
