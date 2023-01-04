@@ -4,12 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
-    fun sum_calc(a: Int, b: Int): Int {
-        var sum = a + b
-        var rt = sum.toInt()
-
-        val test = 1
-
-        return rt
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
     }
 }
